@@ -1,0 +1,27 @@
+.home-page {
+    background-color: white;
+    padding-top: 3rem;
+}
+
+.home-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-title {
+    font-size: 3rem;
+}
+
+.readlist-link {
+    color: white;
+    width: 50px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8A8A8A;
+    border-radius: 50%;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}

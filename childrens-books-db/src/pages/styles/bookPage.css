@@ -1,0 +1,26 @@
+.book-page {
+    padding-top: 6rem;
+    background-color: #222222;
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+}
+
+.book-wrapper {
+    display: flex;
+    gap: 4rem;
+}
+
+.home-link {
+    color: white;
+    width: 50px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8A8A8A;
+    border-radius: 50%;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}

@@ -1,0 +1,46 @@
+.book {
+    aspect-ratio: 3/4;
+    width: 100%;
+    display: flex;
+    color: white;
+    transition: opacity .3s ease-in-out;
+    cursor: pointer;
+}
+
+.book:hover {
+    opacity: 0.8;
+}
+
+.book-large {
+    flex: 1;
+}
+
+.book-large h2 {
+    font-size: 3rem;
+}
+
+.book-large h4 {
+    font-size: 1.5rem;
+}
+
+.book-link {
+    text-decoration: none;
+}
+
+.book-link-large {
+    flex: 1;
+}
+
+.book-binder {
+    flex: 1;
+    border-right: 2px solid black;
+}
+
+.book-cover {
+    flex: 13;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
